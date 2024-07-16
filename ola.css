@@ -1,0 +1,162 @@
+#site{
+  /* Definimos a largura da página */
+  width:1195px;
+  /* Definirmos a altura da página*/
+  height:1000px;
+  /* Aqui definiremos a posição que a página ocupará na tela, nesse caso estamos definindo que fique centralizado na tela*/
+  /*top : posição de cima */
+  margin-top:0;
+  /* left: posição de esquerda*/
+  margin: left 0;;
+  /* bottom : posição de baixo */
+  margin-bottom:0;
+  /* right : posição de direita */
+  margin-right:auto;
+  /* Aqui definiremos a cor de fundo da página */
+  background-color:#ffffff;
+
+  
+  }
+
+
+
+#header{
+
+  width: 1550px; 
+    /* altura da div */
+    height: 100px;
+   /* Cor de fundo da div */
+  background-color: #971212;}
+
+
+      
+  .galery{
+
+    width: 100px;
+    height: 200px;
+    border: 1px solid #e5bcbc;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    }
+    
+    
+    .description {
+    
+    width: 600px;
+    margin: 100px
+    padding 40px; 
+    background-color: rgba(0,0,0, 0.6);
+    color: whitesmoke
+    
+    
+    }
+    
+    .zindex{
+    
+    position:static;
+    z-index: 10;
+    margin-top: -360px ;
+    margin-right: 60px;
+    margin-left: 600px;
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #conteudo{
+     
+      width:1000px;
+      /* altura da div */
+      height:100px;
+      /* Cor de fundo da div */
+      background-color:rgb(255, 255, 255);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+    }
+    
+    p{
+    
+    
+    
+    font-size: larger;
+    }
+    #footer{
+    
+      width:1000px;
+      /* altura da div */
+      height:100px;
+      /* Cor de fundo da div */
+      background-color:rgb(255, 255, 255);
+      }
+    
+    
+    
+    
+      #conteudo-left{
+       
+          width:500px;
+          /* altura da div */
+          height: 450px;
+          /* O atributo Float é utilizado para fazermos o nosso bloco(div)
+          literalmente flutue e se posicione onde queremos na página,
+          quando escolhemos left, dizemos que esse bloco irá se posicionar na
+          parte esquerda da página */
+          float:left;
+          /* Cor de fundo da div */
+          background-color:rgb(255, 255, 255);
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif#12973e;
+          }
+      
+          nav a{
+    
+              color: #fff;
+              float: right;
+              text-decoration: none;
+              display:block;
+              padding: 5% 5%;
+              font-size: large;
+             
+              
+              }
+          
+              nav a:hover{
+                  transition: 0.5s;
+                  background-color: aliceblue;
+                  color: #000000;
+                  
+            
+            
+                }
+                nav .Logo{ 
+    
+                  color: #fff;
+                  float: left;
+                  display:block;
+                  padding: 4px 16px}
+
+              .img-container {
+                display: flex;
+                align-items: center;
+                margin: 150px 0; /* Ajuste das margens para separação dos itens */
+              }
+              
+              .img-left {
+                margin-right: 20px;
+              }
+              
+              .img-right {
+                margin-left: 20px;
+              }
+              
+              .text {
+                flex: 1;
+              }
